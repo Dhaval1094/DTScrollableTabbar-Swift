@@ -8,14 +8,15 @@ The tabbar design is set for mainly these three attributes. You can choose one a
 
 * First - dynamic size scrollable tabbar. In this all items(buttons) in the tabbar will be set with the intrinsic label size 		of the button and given pading value. Pading is for spacing on the left and right side of the title of the button.
 * Second - max title width size tabbar. In this all items(buttons) in the tabbar will be set as per the maximum button titles 	size and given pading value.
-* Third - Fixed tabbar frame size. In this the size of the tabbar view will be fix with the given constraints. So the tabbar 	
-	will not be scrollable because the view will be fixed.
+* Third - Fixed tabbar frame size. In this the size of the tabbar view will be fix with the given constraints. So the tabbar 	will not be scrollable because the view will be fixed.
 
 ![App Functionality](https://github.com/Dhaval1094/DTScrollableTabbar-Swift/blob/master/Screenshots/App_functionality.gif)
 	
-The layer structure of main tabbar view is showing below.
+# Layer structure
 
-![Layers](https://github.com/Dhaval1094/DTScrollableTabbar-Swift/blob/master/Screenshots/layers.png)
+![Layer structure](https://github.com/Dhaval1094/DTScrollableTabbar-Swift/blob/master/Screenshots/layers.png)
+
+# Attributes
 
 For managing the design just pass the attributes. The attributes are as follows..
 
@@ -31,6 +32,8 @@ For managing the design just pass the attributes. The attributes are as follows.
     var setByMaxButtonTitle = false                  // Set fix width for the button
     var fitToTheScreenWidth = false                  // Set scrollview content fit to the screen size and devide equally
     
+# Usage
+  
 It could be used in project as folows.
 
     //Take a UIView object in story board. Set subclass DTTabBarView to it.
