@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="o0L-c2-23V">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="U3p-Lj-rH8">
+            <objects>
+                <viewController storyboardIdentifier="DTViewController" id="o0L-c2-23V" customClass="DTViewController" customModule="DTScrollableTabbar_Swift" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="uOH-4a-y85">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yfU-91-08U" customClass="DTTabBarView" customModule="DTScrollableTabbar_Swift" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="80" width="375" height="80"/>
+                                <color key="backgroundColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="UcK-4U-5Xc"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tLu-zE-sYw">
+                                <rect key="frame" x="161" y="474" width="53" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="L7l-m1-juL"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal" title="Refrash"/>
+                                <connections>
+                                    <action selector="clicked:" destination="o0L-c2-23V" eventType="touchUpInside" id="KaR-St-ljJ"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NGY-mr-5yu" customClass="DTTabBarView" customModule="DTScrollableTabbar_Swift" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="240" width="375" height="50"/>
+                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="1to-hc-8Uy"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="L1A-Yq-G7G" customClass="DTTabBarView" customModule="DTScrollableTabbar_Swift" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="370" width="375" height="60"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="agd-TU-J3X"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Set buttons width to the internsic lablel width and given pading." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y07-O7-PbV">
+                                <rect key="frame" x="20" y="30" width="335" height="36"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="36" id="aGN-xp-jYo"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Set button width to the maximum button's internsic label widh and given pading" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Fe-dU-94M">
+                                <rect key="frame" x="20" y="190" width="335" height="36"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="36" id="Dwl-aS-yuv"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="All buttons will be set equal size w.r.t to the screen width. Like fixed tabbar." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8zf-Hb-xD5">
+                                <rect key="frame" x="20" y="320" width="335" height="36"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="36" id="Isb-IF-5e9"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="9Fe-dU-94M" secondAttribute="trailing" constant="20" id="30d-Ix-X29"/>
+                            <constraint firstAttribute="trailing" secondItem="y07-O7-PbV" secondAttribute="trailing" constant="20" id="3h6-ph-XEc"/>
+                            <constraint firstItem="j6q-dN-H7f" firstAttribute="trailing" secondItem="yfU-91-08U" secondAttribute="trailing" id="5qK-7U-xAP"/>
+                            <constraint firstItem="9Fe-dU-94M" firstAttribute="top" secondItem="yfU-91-08U" secondAttribute="bottom" constant="30" id="94k-3g-8la"/>
+                            <constraint firstItem="yfU-91-08U" firstAttribute="top" secondItem="y07-O7-PbV" secondAttribute="bottom" constant="14" id="BQH-kj-Zxn"/>
+                            <constraint firstItem="L1A-Yq-G7G" firstAttribute="leading" secondItem="j6q-dN-H7f" secondAttribute="leading" id="BUr-OZ-jgD"/>
+                            <constraint firstItem="tLu-zE-sYw" firstAttribute="centerX" secondItem="j6q-dN-H7f" secondAttribute="centerX" id="GP1-kS-pa7"/>
+                            <constraint firstItem="8zf-Hb-xD5" firstAttribute="top" secondItem="NGY-mr-5yu" secondAttribute="bottom" constant="30" id="Hb6-mu-CC3"/>
+                            <constraint firstItem="j6q-dN-H7f" firstAttribute="trailing" secondItem="L1A-Yq-G7G" secondAttribute="trailing" id="L1g-Ad-oiB"/>
+                            <constraint firstItem="NGY-mr-5yu" firstAttribute="top" secondItem="9Fe-dU-94M" secondAttribute="bottom" constant="14" id="OG8-8P-ysI"/>
+                            <constraint firstItem="L1A-Yq-G7G" firstAttribute="top" secondItem="8zf-Hb-xD5" secondAttribute="bottom" constant="14" id="RNC-iR-SY1"/>
+                            <constraint firstAttribute="trailing" secondItem="8zf-Hb-xD5" secondAttribute="trailing" constant="20" id="RNf-h1-3od"/>
+                            <constraint firstItem="tLu-zE-sYw" firstAttribute="top" secondItem="L1A-Yq-G7G" secondAttribute="bottom" constant="44" id="Zwy-qJ-dBL"/>
+                            <constraint firstItem="9Fe-dU-94M" firstAttribute="leading" secondItem="uOH-4a-y85" secondAttribute="leading" constant="20" id="atL-Io-w4q"/>
+                            <constraint firstItem="8zf-Hb-xD5" firstAttribute="leading" secondItem="uOH-4a-y85" secondAttribute="leading" constant="20" id="dUS-Pb-KzH"/>
+                            <constraint firstItem="y07-O7-PbV" firstAttribute="top" secondItem="j6q-dN-H7f" secondAttribute="top" constant="10" id="jjj-bT-gQU"/>
+                            <constraint firstItem="NGY-mr-5yu" firstAttribute="leading" secondItem="j6q-dN-H7f" secondAttribute="leading" id="kQ7-6j-D21"/>
+                            <constraint firstItem="y07-O7-PbV" firstAttribute="leading" secondItem="j6q-dN-H7f" secondAttribute="leading" constant="20" id="vWw-a7-ue6"/>
+                            <constraint firstItem="j6q-dN-H7f" firstAttribute="trailing" secondItem="NGY-mr-5yu" secondAttribute="trailing" id="vcO-AT-fof"/>
+                            <constraint firstItem="yfU-91-08U" firstAttribute="leading" secondItem="j6q-dN-H7f" secondAttribute="leading" id="xD2-EN-yFF"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="j6q-dN-H7f"/>
+                    </view>
+                    <connections>
+                        <outlet property="tabBarViewOne" destination="yfU-91-08U" id="oB6-Q9-iE0"/>
+                        <outlet property="tabBarViewTwo" destination="NGY-mr-5yu" id="mF2-AD-5Pr"/>
+                        <outlet property="tabbarViewThree" destination="L1A-Yq-G7G" id="hI5-TM-mEX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jxR-fT-dyV" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="56.799999999999997" y="27.436281859070466"/>
+        </scene>
+    </scenes>
+</document>
