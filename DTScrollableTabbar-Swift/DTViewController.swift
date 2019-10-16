@@ -50,7 +50,7 @@ class DTViewController: UIViewController, DTTabBarViewDelegate {
         objAttributes.setByMaxButtonTitle = false
         objAttributes.stripHeight = 5
         tabBarViewOne.objAttributes = objAttributes
-        tabBarViewOne.refrashTabbar()
+       // tabBarViewOne.refrashTabbar()
     }
     
     func setFitByMaxButtonTitleSizeTabbar() {
@@ -67,7 +67,7 @@ class DTViewController: UIViewController, DTTabBarViewDelegate {
         objAttributes.setByMaxButtonTitle = true
         objAttributes.stripHeight = 5
         tabBarViewTwo.objAttributes = objAttributes
-        tabBarViewTwo.refrashTabbar()
+      //  tabBarViewTwo.refrashTabbar()
     }
     
     func setByFittoTheScreenWidthTabbar() {
@@ -84,7 +84,7 @@ class DTViewController: UIViewController, DTTabBarViewDelegate {
         objAttributes.setByMaxButtonTitle = true
         objAttributes.stripHeight = 5
         tabbarViewThree.objAttributes = objAttributes
-        tabbarViewThree.refrashTabbar()
+      //  tabbarViewThree.refrashTabbar()
     }
     
     //MARK: - Button clicked from tabbar

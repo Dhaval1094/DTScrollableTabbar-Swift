@@ -20,7 +20,7 @@
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yfU-91-08U" customClass="DTTabBarView" customModule="DTScrollableTabbar_Swift" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="80" width="375" height="80"/>
-                                <color key="backgroundColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="80" id="UcK-4U-5Xc"/>
                                 </constraints>
@@ -31,7 +31,7 @@
                                     <constraint firstAttribute="height" constant="30" id="L7l-m1-juL"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                <state key="normal" title="Refrash"/>
+                                <state key="normal" title="Refresh"/>
                                 <connections>
                                     <action selector="clicked:" destination="o0L-c2-23V" eventType="touchUpInside" id="KaR-St-ljJ"/>
                                 </connections>
@@ -45,7 +45,7 @@
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="L1A-Yq-G7G" customClass="DTTabBarView" customModule="DTScrollableTabbar_Swift" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="370" width="375" height="60"/>
-                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="agd-TU-J3X"/>
                                 </constraints>
@@ -68,7 +68,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="All buttons will be set equal size w.r.t to the screen width. Like fixed tabbar." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8zf-Hb-xD5">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="All buttons will be set equal size w.r.t the screen width. Like fixed tabbar." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8zf-Hb-xD5">
                                 <rect key="frame" x="20" y="320" width="335" height="36"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="36" id="Isb-IF-5e9"/>
