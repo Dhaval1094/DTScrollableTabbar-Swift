@@ -10,7 +10,7 @@ The tabbar design is set for mainly these three attributes. You can choose one a
 * Second - max title width size tabbar. In this all items(buttons) in the tabbar will be set as per the maximum button titles 	size and given pading value.
 * Third - Fixed tabbar frame size. In this the size of the tabbar view will be fix with the given constraints. So the tabbar 	will not be scrollable because the view will be fixed.
 
-![App Functionality](https://github.com/Dhaval1094/DTScrollableTabbar-Swift/blob/master/Screenshots/App_functionality.gif)
+![App Functionality](https://github.com/Dhaval1094/DTScrollableTabbar-Swift/blob/master/Screenshots/app_vid.gif)
 	
 # Layer structure
 
