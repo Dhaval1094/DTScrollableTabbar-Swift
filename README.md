@@ -34,7 +34,7 @@ For managing the design just pass the attributes. The attributes are as follows.
     
 # Usage
   
-It could be used in project as folows.
+It could be used in project as follows.
 
     //Take a UIView object in story board. Set subclass DTTabBarView to it.
     //Then take outlet.
@@ -49,8 +49,8 @@ It could be used in project as folows.
      //Set attributes
         objAttributes.arrButtonTitles = ["Apple", "Banana", "Graps", "Watermelon"]
         objAttributes.btnColor = UIColor.darkGray
-        objAttributes.btnFont = UIFont.init(name: "Arial Rounded MT Bold", size: 15) ?? UIFont.systemFont(ofSize: 15)
-        objAttributes.stripColor = UIColor.init(white: 0.8, alpha: 1.0)
+        objAttributes.btnFont = UIFont(name: "Arial Rounded MT Bold", size: 15) ?? UIFont.systemFont(ofSize: 15)
+        objAttributes.stripColor = UIColor(white: 0.8, alpha: 1.0)
         objAttributes.btnTextColor = UIColor.white
         objAttributes.setBoarderColor = UIColor.black
         objAttributes.setBoarderWidth = 0.3
